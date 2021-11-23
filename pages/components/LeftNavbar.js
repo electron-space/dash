@@ -1,13 +1,14 @@
-import React from 'react'
-import styles from "../../styles/Home.module.css"
-
+import React from 'react';
+import styles from '../../styles/Home.module.css';
 
 function LeftNavbar() {
-    return (
-        <div className={ }>
-            
-        </div>
-    )
+  return (
+    <div className={styles.navcontainer}>
+      <div className={styles.logo}>
+        <h2>Electron-Space</h2>
+      </div>
+    </div>
+  );
 }
 
-export default LeftNavbar
+export default LeftNavbar;
